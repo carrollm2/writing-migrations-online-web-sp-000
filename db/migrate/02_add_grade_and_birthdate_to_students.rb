@@ -1,9 +1,8 @@
 class AddGradeAndBirthdateToStudents
-  def change
-    add_column :students, :grade, :text
-    # add_column :students do |t|
-    #   t.integer :grade
-    #   t.string :birthdate
-    # end
+  def add_column
+    add_column :students do |t|
+      t.integer :grade
+      t.string :birthdate
+    end
   end
 end
