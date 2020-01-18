@@ -1,9 +1,4 @@
-class AddGradeAndBirthdateToStudents 
-  def change
-    create_table :students do |t|
-      t.string :name
-    end
-  end
+class AddGradeAndBirthdateToStudents
 
   def add_column
     add_column :students do |t|
