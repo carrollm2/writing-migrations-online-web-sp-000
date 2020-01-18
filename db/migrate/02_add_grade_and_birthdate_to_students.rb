@@ -1,4 +1,4 @@
-class AddGradeAndBirthdateToStudents < ActiveRecord::Base
+class AddGradeAndBirthdateToStudents 
   def change
     create_table :students do |t|
       t.string :name
